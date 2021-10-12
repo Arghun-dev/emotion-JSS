@@ -17,10 +17,10 @@ interface WrapperProps {
 
 const Wrapper = styled('div')<WrapperProps>`
   background-color: red;
-  color: ${(props) => props.color};
+  color: ${props.color};
   padding: 1rem;
   &:hover {
-    background-color: ${(props) => props.color};
+    background-color: ${props.color};
   }
 `
 
